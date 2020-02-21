@@ -29,8 +29,14 @@ Please direct questions, suggestions, and bug reports to sar@apuebook.com.
 Steve Rago
 May 30, 2005
 
-by jianfeizhou
-modi apue.2e/Make.defines.linux
 
+
+by jianfeizhou
+
+1.
+modi apue.2e/Make.defines.linux
 WKDIR=/home/baohua/develop/zhou/zhou22222/apue.2e
 can find apue.h and other .h in WKDIR 
+
+2.
+export LD_LIBRARY_PATH=~/develop/zhou/apue/apue.2e/db:$LD_LIBRARY_PATH
